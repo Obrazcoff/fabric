@@ -1,20 +1,25 @@
-Hyperledger Fabric Functionalities
+Функциональность Hyperledger Fabric
 ==================================
 
-Hyperledger Fabric is an implementation of distributed ledger technology
-(DLT) that delivers enterprise-ready network security, scalability,
-confidentiality and performance, in a modular blockchain architecture.
-Hyperledger Fabric delivers the following blockchain network functionalities:
+Hyperledger Fabric - это реализация распределенной технологии учёта (DLT - 
+distributed ledger technology), готовой к использованию на уровне
+корпоративных стандартов по сетевой безопасности, масштабируемости,
+конфиденциальности и производительности, и представленной в модульной
+архитектуре блокчейн (blockchain).
+Hyperledger Fabric обеспечивает следующие функциональные особенности сетей, 
+построенных на базе блокчейн технологий:
 
-Identity management
+Управление идентификацией
 -------------------
 
-To enable permissioned networks, Hyperledger Fabric provides a membership
-identity service that manages user IDs and authenticates all participants on
-the network. Access control lists can be used to provide additional layers of
-permission through authorization of specific network operations. For example, a
-specific user ID could be permitted to invoke a chaincode application, but
-blocked from deploying new chaincode.
+Чтобы использовать сети с выдачей разрешений на выполнение операций,
+Hyperledger Fabric предоставляет службу идентификации участников сети, которая
+управляет идентивикаторами пользователей (user IDs) и аутентифицирует всех
+участников сети. Для предоставления дополнительных уровней доступа посредством
+авторизации для специфических операций в сети, могут использоваться списки
+контроля доступа. Нарпример указанному по ID пользователю может быть разрешен
+запуск приложений, написанных на chaincode, но в тоже время ему заблокирована
+возможность добавлять новые инструкции в такие приложения.
 
 Privacy and confidentiality
 ---------------------------
